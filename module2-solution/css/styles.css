@@ -4,19 +4,24 @@
 	margin: 0px;
 	padding: 0px;
 }
+body{
+	font-family: courier, monospace;
+	font-size: 1em;
+}
 #title{
 	text-align: center;
 	margin-top: 20px;
+	font-size: 175%;
 }
 
+
 p{
-	margin: 11px;
-	margin-top: 35px;
+	margin: 35px 14px 10px 14px;
 }
 .content{
 	box-sizing: border-box;
 	position: relative;	
-	background-color: gray;
+	background-color: #CBCBCB;
 	border: 1px solid black;
 	margin: 10px;
 }
@@ -27,16 +32,17 @@ p{
 	width: 150px;
 	border: 1px solid black;
 	text-align: center;
+	font-size: 125%;
 }
 .chicken{	
-	background-color: pink;
+	background-color: #FFAFBD;
 }
 .beef{
-	background-color: maroon;
+	background-color: #A33434;
 	color: white;
 }
 .sushi{
-	background-color: yellow;
+	background-color: #D0DC6E;
 }
 .container{
 	width: 100%;
@@ -50,7 +56,7 @@ p{
 		width: 100%;
 	}
 	.container{
-		padding: 20px 40px 20px 50px;
+		padding: 20px 30px 20px 50px;
 	}
 
 }
