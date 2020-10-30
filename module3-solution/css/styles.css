@@ -1,85 +1,56 @@
 /********** Base styles **********/
-*{
-	box-sizing: border-box;
-	margin: 0px;
-	padding: 0px;
-}
 body{
-	font-family: courier, monospace;
-	font-size: 1em;
-}
-#title{
-	text-align: center;
-	margin-top: 20px;
-	font-size: 175%;
+	font-family: 'Roboto Slab', serif;
+	font-size: 16px;
 }
 
-
-p{
-	margin: 35px 14px 10px 14px;
-}
-.content{
-	box-sizing: border-box;
-	position: relative;	
+#header-nav{
 	background-color: #CBCBCB;
-	border: 1px solid black;
-	margin: 10px;
 }
-.chicken, .beef, .sushi{
+.navbar-default .navbar-brand {
+    color: #393939;
+}
+#heading{
+	margin-bottom: 20px;
+}
+.contenido{
+	background-color: #CBCBCB;	
+	margin-bottom: 15px;
+	position: relative;
+	overflow: hidden;
+	height: 850px;
+}
+.contenido > p,
+.contenido > span,
+.contenido > a,
+.back-text {
+	margin: 15px;
+}
+.back-text{
+	font-size: 90%;
 	position: absolute;
-	right: -1px;
-	top: -1px;
-	width: 150px;
-	border: 1px solid black;
-	text-align: center;
-	font-size: 125%;
-}
-.chicken{	
-	background-color: #FFAFBD;
-}
-.beef{
-	background-color: #A33434;
-	color: white;
-}
-.sushi{
-	background-color: #D0DC6E;
-}
-.container{
+	bottom: 0;
 	width: 100%;
-	padding: 20px;
 }
 
 
 @media(max-width: 767px){
-	.col-xs-12{
-		float: left;
-		width: 100%;
+	.contenido{
+		height: 1100px;
 	}
-	.container{
-		padding: 20px 30px 20px 50px;
-	}
-
 }
 
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-	.col-md-6, .col-md-12{
-		float: left;
-	}
-	.col-md-6{
-		width: 50%;
-	}
-	.col-md-12{
-		width: 100%;
-	}	
-	
+		
 }
 
 /********** Large devices only **********/
 @media(min-width: 992px){
-	.col-lg-4{
-		float: left;
-		width: 33.33%;
+	.contenido{
+		height: 1100px;
 	}
+}
+@media(min-width: 1200px){
 	
 }

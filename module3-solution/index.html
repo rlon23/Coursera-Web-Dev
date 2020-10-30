@@ -3,37 +3,94 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Module 2 Solution | Arlony Diaz</title>
+	<title>Module 3 Solution | Arlony Diaz</title>
+	<!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
 </head>
 <body>
-	<h1 id="title">Our Menu</h1>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+		  <div class="container">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		    	<a class="navbar-brand" href="index.html">Food, LLC</a>
+		    	<!-- Hamburger Nav -->
+		        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+		        	<span class="sr-only">Toggle navigation</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		        </button>
+		        <!-- Hamburger Nav --> 		      
+		    </div>
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="collapsable-nav">
+		      <ul class="nav navbar-nav navbar-right">
+		      	<li class="visible-xs">
+		      		<a href="#chicken" class="text-center">Chicken</a>
+	            </li>
+
+	            <li class="visible-xs">
+		      		<a href="#beef"  class="text-center">Beef</a>
+	            </li>
+	            
+	            <li class="visible-xs">
+		      		<a href="#sushi"  class="text-center">Sushi</a>
+	            </li>		        
+		      </ul>		
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container -->
+		</nav>
+	</header>
+	<h1 id="heading"class="text-center">Our Menu</h1>
 
 	<div class="container">
-		<div class="col-lg-4 col-md-6 col-xs-12">
-			<div class="content">
-				<h2 class="chicken">Chicken</h2>
-				<p>Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Nulla harum excepturi, ab repellendus eaque consectetur culpa, quisquam saepe repellat, obcaecati nam tempora incidunt, nihil magnam blanditiis ducimus odit modi voluptates.
-				</p>
-			</div>
-		</div>
+		<div id="home-tiles" class="row">
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="contenido">
+					<h3 id="chicken" class="text-center">Chicken</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lorem massa, pharetra at erat blandit, commodo pellentesque velit. Nulla aliquet blandit dignissim. Praesent fermentum et tellus non auctor. Donec eros nulla, vestibulum et accumsan in, luctus et libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris nec magna tristique, elementum est vitae, pulvinar enim. Praesent eu purus eu turpis sollicitudin aliquet id vel est. Integer dapibus lorem elit, quis maximus arcu congue vitae. Donec tellus diam, tempor eu vulputate sit amet, pellentesque sit amet turpis.
 
-		<div class="col-lg-4 col-md-6 col-xs-12">
-			<div class="content">
-				<h2 class="beef">Beef</h2>
-				<p>Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Nulla harum excepturi, ab repellendus eaque consectetur culpa, quisquam saepe repellat, obcaecati nam tempora incidunt, nihil magnam blanditiis ducimus odit modi voluptates.
-				</p>
+					Integer sed eros in ligula dictum blandit. Donec sagittis convallis eros. Vivamus at mi quis arcu iaculis luctus a hendrerit est. Mauris ac aliquam libero. Morbi vel ante eget eros luctus elementum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus aliquet dignissim gravida. Vestibulum sagittis justo at dui auctor, a efficitur ipsum semper. Aliquam consectetur, dolor ac accumsan laoreet, velit velit tincidunt massa, nec vestibulum enim lectus maximus sem. Nunc ut viverra ipsum, id rutrum ex.
+					</p>
+					<div class="back-text">
+						<span>(End of Chicken section)</span><a href="#heading"> Back to top</a>						
+					</div>					
+				</div>				
 			</div>
-		</div>
 
-		<div class="col-lg-4 col-md-12 col-xs-12">
-			<div class="content">
-				<h2 class="sushi">Sushi</h2>
-				<p>Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Unde necessitatibus, excepturi? Officia fuga repudiandae pariatur reiciendis temporibus et porro illo ab eaque laborum architecto optio, suscipit debitis consectetur in quod!
-				</p>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="contenido">
+					<h3 id="beef" class="text-center">Beef</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non vehicula lorem. Praesent facilisis et lectus et eleifend. In varius scelerisque erat facilisis dictum. Duis sagittis, felis id pellentesque maximus, ligula nibh tempor leo, vitae vulputate libero ante non felis. Fusce tellus nunc, molestie quis metus eget, iaculis commodo felis. Donec vel dui nec erat egestas sollicitudin id nec lacus. Nullam consequat in sapien ac vulputate. Integer rhoncus orci eu dui placerat dictum.
+
+					Nulla metus mauris, placerat blandit lorem id, feugiat rhoncus orci. Proin et dolor leo. Etiam scelerisque ultrices rutrum. Morbi ac orci sapien. Donec et magna ornare libero vehicula porta. Donec id fermentum nibh. Nulla diam metus, congue vel consequat quis, mollis a diam. In pellentesque iaculis justo, vel facilisis sapien pulvinar ut. Phasellus mauris nulla, cursus et facilisis at, imperdiet a ex. Donec ut auctor nunc, vel iaculis enim. Morbi porttitor cursus felis. Suspendisse iaculis bibendum finibus. Duis quis semper eros, vitae tristique dui.
+					</p>
+					<div class="back-text">
+						<span>(End of Beef section)</span><a href="#heading"> Back to top</a>						
+					</div>		 
+				</div>				
 			</div>
-		</div>
 
-	</div>
+			<div class="col-md-4 col-sm-12 col-xs-12">
+				<div class="contenido">
+					<h3 id="sushi" class="text-center">Sushi</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec nibh ut risus mollis eleifend ut laoreet nibh. Nunc sed aliquet erat, et ullamcorper orci. Vivamus in cursus lorem, in mattis erat. Donec vel mi at nulla viverra ultrices sed eu mi. Sed consequat finibus dapibus. Nulla massa ex, aliquam non nisi id, rutrum consequat sem. Aenean mollis ligula nisl, sit amet cursus risus commodo non. Sed convallis leo eget porta dignissim. Mauris fermentum consectetur mollis. Vivamus iaculis finibus nisi non sagittis.
+
+					Praesent sit amet erat vitae ligula semper rutrum. Nullam eget pellentesque ex, eu eleifend diam. Maecenas dapibus urna ac libero tempor faucibus. Praesent diam lectus, luctus sodales lacus ut, efficitur iaculis elit. Nulla aliquam ac quam ac suscipit. Fusce sapien est, dapibus sed odio eget, laoreet imperdiet mi. Maecenas rhoncus mattis neque ut fringilla. Pellentesque efficitur porttitor pretium. Nulla condimentum lorem a finibus molestie. Suspendisse condimentum erat eget purus egestas convallis. Aliquam dignissim sit amet dui vitae pharetra.
+					</p>
+					<div class="back-text">
+						<span>(End of Sushi section)</span><a href="#heading"> Back to top</a>						
+					</div>		 
+				</div>
+			</div>
+		</div><!-- end row -->
+	</div><!-- end container -->
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
